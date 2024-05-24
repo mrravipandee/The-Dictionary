@@ -26,17 +26,17 @@ git clone https://github.com/mrravipandee/The-Dictionary.git
 cd The-Dictionary
 
 ### Install dependencies
-- ** npm install **
+- npm install
 
 ### Run the application
-- ** npm run dev **
+- npm run dev 
 
 ### Build the application
-- ** npm run build **
+- npm run build 
 
 ## Usage
-- ** Type a search term in the input field or use the microphone button for voice search. **
-- ** Click the search button to view the results in a modal. **
+- Type a search term in the input field or use the microphone button for voice search.
+- Click the search button to view the results in a modal.
 
 ## License
 

@@ -22,6 +22,7 @@ This project is a sleek and modern search application built with React, Vite, an
 ### Clone the repository
 ```sh
 git clone https://github.com/mrravipandee/The-Dictionary.git
+```
 cd The-Dictionary
 
 ### Install dependencies

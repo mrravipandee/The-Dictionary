@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ImSearch } from "react-icons/im";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import Result from './Result';
+import Footer from './Footer';
 
 const Search = () => {
   const [showModal, setShowModal] = useState(false);
@@ -41,6 +42,7 @@ const Search = () => {
       </div>
       {error && <span className="text-red-500 fixed mt-[6rem]">{error}</span>}
       {showModal && <Result setShowModal={setShowModal} searchTerm={inputText} />}
+      <Footer />
     </div>
   );
 };
